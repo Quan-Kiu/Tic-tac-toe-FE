@@ -1,0 +1,63 @@
+.modal {
+    font-size: 12px;
+    background-color: #293462;
+    color: #fff;
+    border: thin solid #fff;
+    border-radius: 10px;
+    width: 800px;
+    padding: 10px;
+}
+
+.modal>.header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+}
+
+.modal>.content {
+    width: 100%;
+    padding: 10px 5px;
+}
+
+.modal>.actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+}
+
+.modal>.close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #F24A72;
+    color: white;
+    border-radius: 18px;
+    border: 2px solid #FDAF75;
+}
+
+.button {
+
+    margin: 0 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    min-width: 100px;
+
+}
+
+.button.ok {
+    color: #293462;
+    background-color: #EAEA7F;
+}
